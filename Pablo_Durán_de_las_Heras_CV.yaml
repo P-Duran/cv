@@ -1,0 +1,152 @@
+cv:
+  name: Pablo Durán de las Heras
+  location: A Coruña
+  email: pablodurandelasheras@live.com
+  phone: tel:+34-617033163
+  website: https://github.com/P-Duran
+  social_networks:
+    - network: LinkedIn
+      username: pablo-ddh
+    - network: GitHub
+      username: P-Duran
+  sections:
+    "":
+      - "Desarrollador con 4+ años de experiencia especializado principalmente en **Java (Spring)** y **Python** para backend y en **React** en el frontend. 
+      Durante estos años he trabajado en proyectos de Data e IA procesando grandes cantidades de datos y configurando modelos de aprendizaje."
+      - Soy una persona creativa, autónoma e inquieta, me apasiona aprender cosas nuevas y no ceñirme únicamente a lo que conozco.
+    Educación:
+      - institution: Universidade da Coruña
+        area: Ingeniería Informática
+        start_date: 2016
+        end_date: 2021
+        highlights:
+          - 'TFG ([Integrated system based on the automation of the extraction and characterization, using natural processing language, of user ratings in sales platforms](https://ruc.udc.es/dspace/handle/2183/31273))'
+          - '**Especialidad:** Computación'
+      - institution: Universidade de Vigo
+        area: Ingeniería de Minas
+        start_date: 2015
+        end_date: 2016
+    Experiencia:
+      - company: Sngular
+        position: Data Visualization | *Desarrollador de Software*
+        location: A Coruña
+        start_date: 2024
+        end_date:
+        highlights:
+          - Proyecto de procesamiento y visualización de grandes cantidades de datos para una gran compañía del sector textil
+          - "Mantenimiento y mejora de un servicio de consulta de datos de empleados, con gran volumetría de datos y con 
+          integración de LLMs para la creación de consultas en base a un chatbot"
+          - Creación de topics y AVROS de Kafka para exponer información de la base de datos
+          - "*Java, Spring, API-First, OpenAPI, Kafka*"
+      - company: Sngular
+        position: Chatbot LLM | *Desarrollador de Software*
+        location: A Coruña
+        start_date: 2023
+        end_date: 2024
+        highlights:
+          - Chatbot basado en LLMs para una compañía de experiencias y ofertas
+          - "Construcción de un chatbot usando tecnologías de LLM para la recomendación de ofertas de viaje, 
+          con una integración de RAG para la consulta de ofertas como fuente externa de información y contexto."
+          - "Para el proyecto además, se modeló una librería/framework para la creación de chatbots de manera genérica, 
+          para facilitar la construcción de nuevos proyectos similares."
+          - Para la librería se siguió una arquitectura basada en plugins para asegurar su extensibilidad y configurabilidad
+          - "El framework estaba compuesto por:
+           *WebComponent* embeddable desarrollado en React, 
+           *Backend de chatbot* en Python (Langchain + FastAPI), 
+           *Backend RAG* en Python,Comunicación basada en sockets"
+          - "*Python, FastAPI, Ragas, Langchain, Embeddings, Socket-IO, React, OpenAI, GeminiAI, Docker*"
+      - company: Sngular
+        position: Procesamiento de Documentos basado en IA | *Desarrollador de Software*
+        location: A Coruña
+        start_date: 2023
+        end_date: 2023
+        highlights:
+          - Líder de proyecto IA de procesamiento de documentos
+          - "Creación de un servicio web de detección automática de ISBNs y cursos escolares en documentos."
+          - "El objetivo era poder automatizar los procesos que necesitaba la editorial para realizar análisis de competencia, 
+          así como informatizar los datos de catálogo de libros en colegios."
+          - "*Python, FastAPI, HuggingFace, TensorFlow, Tesseract OCR, Scrum*"
+      - company: Sngular
+        position: Gobierno del dato | *Desarrollador de Software*
+        location: A Coruña
+        start_date: 2021
+        end_date: 2023
+        highlights:
+          - Proyecto de gobierno del dato para una gran compañía del sector textil
+          - "Mantenimiento y mejora de un protocolo de comunicación de aplicaciones basado en grafos, 
+          para ayudar en el filtrado, unión y recopilación de datos de múltiples servicios de terceros."
+          - "Para el proyecto se creó un lenguaje de consulta y su ejecutor como parte de ese protocolo, 
+          permitiendo filtrar datos combinados de diferentes servicios con altos volúmenes (+10.000.000 nodos y aristas)."
+          - "Mantenimiento y mejora de un servicio de versionado de modelos entidad-relación basado en grafos (back + front), con el objetivo de que el cliente pueda definir los dominios de negocio de manera versionada.
+          Dicho sistema permitía la creación de ramas, cambios y resolución automática de conflictos sobre el modelo"
+          - "*Java Spring, React, Couchbase, MongoDB, Docker, Scrum*"
+      - company: Sngular
+        position: Gobierno del dato | *Estudiante en prácticas*
+        location: A Coruña
+        start_date: 2020-09
+        end_date: 2020-12
+        highlights:
+          - Encargado de construir un frontend en React para una aplicación de gobierno del dato
+          - Entendimiento y uso de grafos para un motor custom de grafos en C#
+          - Creación de queries y consultas de grafos
+          - Seguimiento de la metodología SCRUM
+          - "*React, C#*"
+    Proyectos:
+      - name: PKPASS Reader
+        date: '[https://github.com/P-Duran/PassBox](https://github.com/P-Duran/PassBox)'
+        highlights:
+          - Desarrollo de una aplicación de lectura y gestión de pkpasses por aprender el funcionamiento de los mismos
+          - 'Tecnologías: Flutter, Dart'
+      - name: Party Game Back
+        date: '[https://github.com/P-Duran/party-game-back](https://github.com/P-Duran/party-game-back)'
+        highlights:
+          - Desarrollo de una aplicación de creación de juegos basados en formularios con un backend-rendering en el frontend
+          - 'Tecnologías: React Native, Python'
+      - name: Sentiment analyzer tool to monitorize products
+        date: "[https://github.com/P-Duran/gloover](https://github.com/P-Duran/gloover)"
+        highlights:
+          - Sistema de monitorización de productos de amazon basado en el scrapping y en análisis de sentimientos
+          - 'Tecnologías: React, Python'
+    Tecnologías:
+      - label: Lenguajes
+        details: Java, Python, Javascript, Typescript
+      - label: Tecnologías
+        details: Spring Boot, React, React Native, LLMs, TensorFlow, FastAPI, Docker, MongoDB, ServerSQL, Couchbase
+      - label: Metodologías
+        details: Scrum, Kanban
+design:
+  theme: engineeringresumes
+  margins:
+    page:
+      bottom: "2 cm"
+      left: "2 cm"
+      right: "2 cm"
+      top: "2 cm"
+    section_title:
+      bottom: "0.2 cm"
+      top: "0.3 cm"
+    entry_area:
+      date_and_location_width: "4.5 cm"
+      left_and_right: "0 cm"
+      vertical_between: "0.2 cm"
+    highlights_area:
+      left: "0 cm"
+      top: "0.10 cm"
+      vertical_between_bullet_points: "0.10 cm"
+    header:
+      bottom: "5 pt"
+      horizontal_between_connections: "10 pt"
+      vertical_between_name_and_connections: "5 pt"
+  color: rgb(0,0,0)
+  font_size: 10pt
+  disable_last_updated_date: true
+  text_alignment: left-aligned
+  disable_external_link_icons: true
+  header_font_size: 25 pt
+  seperator_between_connections: $|$
+  disable_page_numbering: true
+  use_icons_for_connections: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_style: Last updated in TODAY
+  font: Latin Modern Serif
+  page_size: a4paper
