@@ -1,0 +1,115 @@
+cv:
+  name: Pablo Durán de las Heras
+  location: A Coruña
+  email: pablodurandelasheras@live.com
+  phone: tel:+34-617033163
+  website: https://github.com/P-Duran
+  social_networks:
+    - network: LinkedIn
+      username: pablo-ddh
+    - network: GitHub
+      username: P-Duran
+  sections:
+    "":
+      - "Developer with 4+ years of experience mainly specializing in **Java (Spring)** and **Python** for backend, and in **React** for frontend.
+      During these years, I have worked on Data and AI projects, processing large amounts of data and setting up learning models."
+      - "I am a creative, autonomous, and curious person, passionate about learning new things and not just sticking to what I already know."
+    Education:
+      - institution: Universidade da Coruña
+        area: Computer Engineering
+        start_date: 2016
+        end_date: 2021
+        highlights:
+          - 'Final Degree Project ([Integrated system based on the automation of the extraction and characterization, using natural language processing, of user ratings in sales platforms](https://ruc.udc.es/dspace/handle/2183/31273))'
+          - '**Specialization:** Computing'
+      - institution: Universidade de Vigo
+        area: Mining Engineering
+        start_date: 2015
+        end_date: 2016
+    Experience:
+      - company: Sngular
+        position: Data Visualization | *Software Developer*
+        location: A Coruña
+        start_date: 2024
+        end_date:
+        highlights:
+          - Project for processing and visualizing large amounts of data for a major company in the textile sector
+          - "Maintenance and improvement of an employee data query service, with a large volume of data and the integration of LLMs for creating queries based on a chatbot"
+          - Creation of topics and AVROS in Kafka to expose information from the database
+          - "*Java, Spring, API-First, OpenAPI, Kafka*"
+      - company: Sngular
+        position: Chatbot LLM | *Software Developer*
+        location: A Coruña
+        start_date: 2023
+        end_date: 2024
+        highlights:
+          - Chatbot based on LLMs for an experience and offers company
+          - "Built a chatbot using LLM technologies for recommending travel offers, with a RAG integration for querying offers as an external source of information and context."
+          - "Additionally, modeled a library/framework for creating chatbots generically to facilitate the construction of similar projects."
+          - For the library, a plugin-based architecture was followed to ensure its extensibility and configurability
+          - "The framework was composed of: an embeddable *WebComponent* developed in React, 
+           a *Chatbot backend* in Python (Langchain + FastAPI), 
+           a *RAG backend* in Python, Socket-based communication"
+          - "*Python, FastAPI, Ragas, Langchain, Embeddings, Socket-IO, React, OpenAI, GeminiAI, Docker*"
+      - company: Sngular
+        position: AI Document Processing | *Software Developer*
+        location: A Coruña
+        start_date: 2023
+        end_date: 2023
+        highlights:
+          - Project leader for AI-based document processing
+          - "Created a web service for automatic detection of ISBNs and school courses in documents."
+          - "The goal was to automate processes for the publishing house to perform competitive analysis and digitize catalog data for schools."
+          - "*Python, FastAPI, HuggingFace, TensorFlow, Tesseract OCR, Scrum*"
+      - company: Sngular
+        position: Data Governance | *Software Developer*
+        location: A Coruña
+        start_date: 2021
+        end_date: 2023
+        highlights:
+          - Data governance project for a major company in the textile sector
+          - "Maintenance and improvement of a graph-based application communication protocol to help filter, join, and collect data from multiple third-party services."
+          - "For the project, a query language and its executor were created as part of the protocol, enabling the filtering of combined data from different services with high volumes (over 10,000,000 nodes and edges)."
+          - "Maintenance and improvement of an entity-relationship model versioning service (backend + frontend) so the client could define business domains in a versioned manner. The system allowed the creation of branches, changes, and automatic conflict resolution in the model."
+          - "*Java Spring, React, Couchbase, MongoDB, Docker, Scrum*"
+      - company: Sngular
+        position: Data Governance | *Intern*
+        location: A Coruña
+        start_date: 2020-09
+        end_date: 2020-12
+        highlights:
+          - Responsible for building a React frontend for a data governance application
+          - Understanding and using graphs for a custom C# graph engine
+          - Creating graph queries and consultations
+          - Following the SCRUM methodology
+          - "*React, C#*"
+    Projects:
+      - name: PKPASS Reader
+        date: '[https://github.com/P-Duran/PassBox](https://github.com/P-Duran/PassBox)'
+        highlights:
+          - Development of a PKPASS reading and management application to learn how they work
+          - 'Technologies: Flutter, Dart'
+      - name: Party Game Back
+        date: '[https://github.com/P-Duran/party-game-back](https://github.com/P-Duran/party-game-back)'
+        highlights:
+          - Development of an application for creating games based on forms with backend rendering in the frontend
+          - 'Technologies: React Native, Python'
+      - name: Sentiment analyzer tool to monitorize products
+        date: "[https://github.com/P-Duran/gloover](https://github.com/P-Duran/gloover)"
+        highlights:
+          - Amazon product monitoring system based on scraping and sentiment analysis
+          - 'Technologies: React, Python'
+    Technologies:
+      - label: Languages
+        details: Java, Python, Javascript, Typescript
+      - label: Technologies
+        details: Spring Boot, React, React Native, LLMs, TensorFlow, FastAPI, Docker, MongoDB, ServerSQL, Couchbase
+      - label: Methodologies
+        details: Scrum, Kanban
+    Languages:
+      - label: Spanish
+        details: Native
+      - label: Galician
+        details: Native
+      - label: English
+        details: Intermediate-Advanced
