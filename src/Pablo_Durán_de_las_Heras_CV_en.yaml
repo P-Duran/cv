@@ -113,3 +113,39 @@ cv:
         details: Native
       - label: English
         details: Intermediate-Advanced
+design:
+  theme: engineeringresumes
+  margins:
+    page:
+      bottom: "2 cm"
+      left: "2 cm"
+      right: "2 cm"
+      top: "2 cm"
+    section_title:
+      bottom: "0.2 cm"
+      top: "0.3 cm"
+    entry_area:
+      date_and_location_width: "4.5 cm"
+      left_and_right: "0 cm"
+      vertical_between: "0.2 cm"
+    highlights_area:
+      left: "0 cm"
+      top: "0.10 cm"
+      vertical_between_bullet_points: "0.10 cm"
+    header:
+      bottom: "5 pt"
+      horizontal_between_connections: "10 pt"
+      vertical_between_name_and_connections: "5 pt"
+  color: rgb(0,0,0)
+  font_size: 10pt
+  disable_last_updated_date: true
+  text_alignment: left-aligned
+  disable_external_link_icons: true
+  header_font_size: 25 pt
+  seperator_between_connections: $|$
+  disable_page_numbering: true
+  use_icons_for_connections: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_style: Last updated in TODAY
+  font: Latin Modern Serif
+  page_size: a4paper
