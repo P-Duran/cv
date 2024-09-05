@@ -114,6 +114,13 @@ cv:
         details: Spring Boot, React, React Native, LLMs, TensorFlow, FastAPI, Docker, MongoDB, ServerSQL, Couchbase
       - label: Metodologías
         details: Scrum, Kanban
+    Idiomas:
+      - label: Español
+        details: Nativo
+      - label: Galego
+        details: Nativo
+      - label: Ingles
+        details: Medio-Alto
 design:
   theme: engineeringresumes
   margins:
